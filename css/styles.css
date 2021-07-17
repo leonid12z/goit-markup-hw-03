@@ -1,0 +1,250 @@
+/*Индекс-портфолио-контакты*/
+body {
+}
+/*point*/
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/*Шапка студия,портфолио,контакты ховер*/
+.nav_item:hover {
+  color: #2196f3;
+}
+
+.information:hover,
+.telefone:hover {
+  color: #2196f3;
+}
+
+/*Все ховер фокус*/
+.button:hover,
+.button:focus {
+  background: #2196f3;
+  color: #ffff;
+}
+
+/*Логотип*/
+.nav_logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+/*Студия*/ /*Портфолио*/ /*Котакты*/
+.nav_item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+/*info@devstudio.com*/
+.information {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+/*tel+380961111111*/
+.telefone {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/*Эффективное решение*/
+.big {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+/*Заказ услуг*/
+.button_form {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: #2196f3;
+  color: #ffffff;
+}
+
+.button_form:hover {
+  color: #2196f3;
+}
+
+.hero {
+  background-color: #2f303a;
+}
+
+/*Tekst*/
+.desc {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+/*Текст описания товаров, и т.д.*/
+.text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*Чем мы занимаемся-Наша команда*/
+.title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+/*Команда наша*/
+.subtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+/*Текст-2 применил к 1 и 2 листу*/
+.text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*Нижняя область страницы*/
+.logo-text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+/*addresa i tel*/
+.inform {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+/*г.Киев пр-т ЛесиУкр*/
+.address {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+/*портфолио-html*/
+
+/*Кнопки*/
+.button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+/*Тексты заголовков 2-й лист*/
+/*Технокряк*/ /*Постер*/ /*Ресторан*/
+/*Проект*/ /*Проект Бох*/ /*Инспиратион*/
+/*Лиметед*/ /*ЛАБ*/ /*Гровинг*/
+.subject {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.logo_nav {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.subject:hover {
+  color: #2196f3;
+}
