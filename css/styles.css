@@ -34,6 +34,7 @@ a {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+  /* identical to box height */
   color: #2196f3;
 }
 
@@ -85,23 +86,30 @@ a {
 .big {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 30px;
-  display: flex;
-  align-items: center;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
   text-align: center;
-
   letter-spacing: 0.06em;
+  text-transform: uppercase;
+
   color: #ffffff;
 }
 
 /*Заказ услуг*/
 .button_form {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
   display: flex;
   align-items: center;
   text-align: center;
-  background: #2196f3;
+  letter-spacing: 0.06em;
+  background-color: #2196f3;
   color: #ffffff;
 }
 
