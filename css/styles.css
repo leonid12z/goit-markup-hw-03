@@ -16,12 +16,59 @@ body {
   letter-spacing: 0.02em;
 }
 
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/*Container*/
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  outline: 2px solid red;
+}
+
 /*point*/
 ul {
   list-style: none;
 }
 a {
   text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+/*probnik*/
+.section-desc {
+  outline: 1px solid tomato;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  /*margin-left: -30px;
+  margin-top: -30px;*/
+}
+
+.section-desc > .section-text {
+  outline: 1px solid blue;
+
+  flex-basis: calc(100% / 4);
+
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
 /*Шапка студия,портфолио,контакты ховер*/
@@ -109,6 +156,12 @@ a {
 
 /*Эффективное решение*/
 .hero-big {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+
   font-family: "Roboto";
   font-weight: 900;
   font-size: 44px;
@@ -121,8 +174,14 @@ a {
   color: var(--brand-color);
 }
 
-/*Заказ услуг*/
+/*Заказ услуг кнопка*/
 .hero_button_form {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 450px;
+
   font-family: "Roboto";
   font-weight: 700;
   font-size: 16px;
@@ -131,13 +190,18 @@ a {
   letter-spacing: 0.06em;
   background-color: var(--primary-text-color);
   color: var(--brand-color);
+  border-radius: 4px;
 }
 
 .hero {
   background-color: var(--background-color);
+  height: 600px;
+  width: 1600px;
+  left: 0px;
+  top: 80px;
 }
 
-/*Tekst*/
+/*Tekst h2-h3*/
 .section-desc {
   font-family: "Roboto";
   font-weight: bold;
@@ -148,6 +212,7 @@ a {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
+
 /*Текст описания товаров, и т.д.*/
 .section-text {
   font-family: "Roboto";
@@ -158,6 +223,7 @@ a {
   letter-spacing: 0.03em;
   color: var(--back-color);
 }
+
 /*Чем  занимаемся-Наша команда*/
 .section-title {
   font-family: "Roboto";
@@ -169,6 +235,7 @@ a {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
+
 /*Команда наша*/
 .section-subtitle {
   font-family: "Roboto";
@@ -201,6 +268,7 @@ a {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
+
 /*addresa i tel*/
 .inform {
   font-family: "Roboto";
@@ -211,6 +279,7 @@ a {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+
 /*г.Киев пр-т ЛесиУкр*/
 .address {
   font-family: "Roboto";
@@ -235,6 +304,10 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--accent-color);
+
+  display: inline-block;
+  border-radius: 4px;
+  padding: 6px 22px;
 }
 
 /*Тексты заголовков 2-й лист*/
@@ -250,13 +323,13 @@ a {
   letter-spacing: 0.06em;
   color: var(--accent-color);
 }
+
 .subtitle-text {
   font-family: "Roboto";
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
   /* or 187% */
-
   letter-spacing: 0.03em;
   color: var(--back-color);
 }
@@ -273,4 +346,9 @@ a {
 
 .footer {
   background-color: var(--background-color);
+
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
 }
