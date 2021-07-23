@@ -12,7 +12,7 @@ body {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1,14;
   letter-spacing: 0.02em;
 }
 
@@ -27,7 +27,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
-  outline: 2px solid red;
+  outline: 1px solid tomato;
+  
 }
 
 /*point*/
@@ -45,12 +46,18 @@ h4,
 h5,
 h6,
 p {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.section{
+  padding-top: 100px;
+  padding-bottom: 120px;
+  
 }
 
 /*probnik*/
 .section-desc {
-  outline: 1px solid tomato;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -63,7 +70,7 @@ p {
 }
 
 .section-desc > .section-text {
-  outline: 1px solid blue;
+ outline: 1px solid royalblue;
 
   flex-basis: calc(100% / 4);
 
@@ -93,7 +100,7 @@ p {
   font-family: "Raleway";
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1,19;
   /* or 119% */
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
@@ -103,7 +110,7 @@ p {
   font-family: "Raleway";
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1,19;
   /* or 119% */
   letter-spacing: 0.03em;
   color: var(--accent-color);
@@ -114,7 +121,7 @@ p {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1,14;
   /* or 114% */
   letter-spacing: 0.02em;
 
@@ -126,7 +133,7 @@ p {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1,14;
   /* or 114% */
   letter-spacing: 0.02em;
   color: var(--accent-color);
@@ -137,7 +144,7 @@ p {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1,14;
   /* or 114% */
   letter-spacing: 0.02em;
   color: var(--back-color);
@@ -148,7 +155,7 @@ p {
   font-family: "Roboto";
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1,71;
   /* or 171% */
   letter-spacing: 0.03em;
   color: var(--back-color);
@@ -185,7 +192,7 @@ p {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1,87;
   /*or 187% */
   letter-spacing: 0.06em;
   background-color: var(--primary-text-color);
@@ -195,6 +202,9 @@ p {
 
 .hero {
   background-color: var(--background-color);
+  margin-top: 0;
+  margin-bottom: 94px;
+
   height: 600px;
   width: 1600px;
   left: 0px;
@@ -206,10 +216,14 @@ p {
   font-family: "Roboto";
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1,14;
   /* or 114% */
   text-transform: uppercase;
   letter-spacing: 0.03em;
+
+  margin-top: 0;
+  margin-bottom: 10px;
+
   color: var(--accent-color);
 }
 
@@ -218,9 +232,13 @@ p {
   font-family: "Roboto";
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1,71;
   /* or 171% */
   letter-spacing: 0.03em;
+
+  margin-top: 0;
+  margin-bottom: 94px;
+
   color: var(--back-color);
 }
 
@@ -229,21 +247,29 @@ p {
   font-family: "Roboto";
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1,16;
   /* or 116% */
   text-align: center;
   letter-spacing: 0.03em;
+
+  margin-top: 0;
+  margin-bottom: 50px;
+
   color: var(--accent-color);
 }
 
-/*Команда наша*/
+/* наша Команда*/
 .section-subtitle {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1,18;
   /*or 118%*/
   letter-spacing: 0.03em;
+
+  margin-top: 0;
+  margin-bottom: 30px;
+
   color: var(--accent-color);
 }
 
@@ -252,10 +278,20 @@ p {
   font-family: "Roboto";
   font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1,18;
   /* or 118% */
   letter-spacing: 0.03em;
+
+  margin-top: 0;
+  margin-bottom: 10px;
+
   color: var(--back-color);
+}
+
+/*Изображение pic*/
+.pic {
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 
 /*Нижняя область страницы*/
@@ -263,7 +299,7 @@ p {
   font-family: "Raleway";
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1,19;
   /* or 119% */
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
@@ -274,7 +310,7 @@ p {
   font-family: "Roboto";
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1,71;
   /* or 171% */
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
@@ -286,7 +322,7 @@ p {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1,71;
   /* or 171% */
   letter-spacing: 0.03em;
   color: var(--brand-color);
@@ -299,7 +335,7 @@ p {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1,62;
   /* or 162% */
   text-align: center;
   letter-spacing: 0.03em;
@@ -318,7 +354,7 @@ p {
   font-family: "Roboto";
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   /*or 200% */
   letter-spacing: 0.06em;
   color: var(--accent-color);
@@ -328,7 +364,7 @@ p {
   font-family: "Roboto";
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1,87;
   /* or 187% */
   letter-spacing: 0.03em;
   color: var(--back-color);
@@ -338,7 +374,7 @@ p {
   font-family: "Raleway";
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1,19;
   /* or 119% */
   letter-spacing: 0.03em;
   color: var(--brand-color);
