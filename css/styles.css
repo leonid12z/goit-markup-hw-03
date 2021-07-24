@@ -6,6 +6,7 @@
   --accent-color: #212121;
   --back-color: #757575;
   --background-color: #2f303a;
+  --color-backs:rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -64,19 +65,20 @@ p {
 
   display: flex;
   flex-wrap: wrap;
-
-  /*margin-left: -30px;
-  margin-top: -30px;*/
 }
+ 
+/*margin-left: -30px;
+  margin-top: -30px;*/
 
-.section-desc > .section-text {
+
+/*.section-desc > .section-text {
  outline: 1px solid royalblue;
 
   flex-basis: calc(100% / 4);
 
   margin-left: 30px;
   margin-top: 30px;
-}
+}*/
 
 /*Шапка студия,портфолио,контакты ховер*/
 .nav_item:hover {
@@ -118,25 +120,54 @@ p {
 
 /*Студия Портфолио*/
 .nav_item_list {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  
+  color: var(--primary-text-color);
+  
   font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 1,14;
   /* or 114% */
   letter-spacing: 0.02em;
+}
 
-  color: var(--primary-text-color);
+/* шапка Студия,Портфолио,Контакты*/
+.nav_list{
+  display: flex;
+
+}
+
+.nav_list .item {
+  /*outline: 1px solid tomato;*/
+  margin-right: 50px;
 }
 
 /*Портфолио*/ /*Котакты*/
 .nav_item {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  color: var(--accent-color);
+
   font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 1,14;
   /* or 114% */
   letter-spacing: 0.02em;
-  color: var(--accent-color);
+}
+
+/*Auth-nav*/
+.auth-nav{
+  display: flex;
+}
+
+.auth-nav .item{
+margin-left: 50px;
 }
 
 /*info@devstudio.com*/
@@ -174,6 +205,7 @@ p {
   font-size: 44px;
   line-height: 60px;
   /* or 136% */
+ 
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -187,7 +219,7 @@ p {
   width: 200px;
   height: 50px;
   left: 700px;
-  top: 450px;
+  top: 430px;
 
   font-family: "Roboto";
   font-weight: 700;
@@ -195,6 +227,7 @@ p {
   line-height: 1,87;
   /*or 187% */
   letter-spacing: 0.06em;
+  
   background-color: var(--primary-text-color);
   color: var(--brand-color);
   border-radius: 4px;
@@ -202,33 +235,35 @@ p {
 
 .hero {
   background-color: var(--background-color);
+ 
   margin-top: 0;
   margin-bottom: 94px;
-
   height: 600px;
-  width: 1600px;
-  left: 0px;
-  top: 80px;
+  
 }
 
 /*Tekst h2-h3*/
 .section-desc {
+  margin-top: 0;
+  margin-bottom: 10px;
+  
   font-family: "Roboto";
   font-weight: bold;
   font-size: 14px;
   line-height: 1,14;
   /* or 114% */
+
   text-transform: uppercase;
   letter-spacing: 0.03em;
-
-  margin-top: 0;
-  margin-bottom: 10px;
 
   color: var(--accent-color);
 }
 
 /*Текст описания товаров, и т.д.*/
 .section-text {
+ margin-top: 0;
+ margin-bottom: 94px;
+ 
   font-family: "Roboto";
   font-weight: normal;
   font-size: 14px;
@@ -236,14 +271,14 @@ p {
   /* or 171% */
   letter-spacing: 0.03em;
 
-  margin-top: 0;
-  margin-bottom: 94px;
-
   color: var(--back-color);
 }
 
 /*Чем  занимаемся-Наша команда*/
 .section-title {
+ margin-top: 0;
+ margin-bottom: 50px;
+ 
   font-family: "Roboto";
   font-weight: bold;
   font-size: 36px;
@@ -252,38 +287,35 @@ p {
   text-align: center;
   letter-spacing: 0.03em;
 
-  margin-top: 0;
-  margin-bottom: 50px;
-
   color: var(--accent-color);
 }
 
 /* наша Команда*/
 .section-subtitle {
+  margin-top: 0;
+  margin-bottom: 30px;
+ 
   font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1,18;
   /*or 118%*/
   letter-spacing: 0.03em;
-
-  margin-top: 0;
-  margin-bottom: 30px;
-
+ 
   color: var(--accent-color);
 }
 
 /*text*/
 .text {
+ margin-top: 0;
+ margin-bottom: 10px;
+ 
   font-family: "Roboto";
   font-weight: normal;
   font-size: 16px;
   line-height: 1,18;
   /* or 118% */
   letter-spacing: 0.03em;
-
-  margin-top: 0;
-  margin-bottom: 10px;
 
   color: var(--back-color);
 }
@@ -302,6 +334,7 @@ p {
   line-height: 1,19;
   /* or 119% */
   letter-spacing: 0.03em;
+
   color: var(--primary-text-color);
 }
 
@@ -313,7 +346,9 @@ p {
   line-height: 1,71;
   /* or 171% */
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+
+  color: var(--color-backs);
+
 }
 
 /*г.Киев пр-т ЛесиУкр*/
@@ -325,6 +360,7 @@ p {
   line-height: 1,71;
   /* or 171% */
   letter-spacing: 0.03em;
+
   color: var(--brand-color);
 }
 
@@ -337,8 +373,10 @@ p {
   font-size: 16px;
   line-height: 1,62;
   /* or 162% */
+
   text-align: center;
   letter-spacing: 0.03em;
+
   color: var(--accent-color);
 
   display: inline-block;
@@ -357,6 +395,7 @@ p {
   line-height: 2;
   /*or 200% */
   letter-spacing: 0.06em;
+
   color: var(--accent-color);
 }
 
@@ -367,6 +406,7 @@ p {
   line-height: 1,87;
   /* or 187% */
   letter-spacing: 0.03em;
+
   color: var(--back-color);
 }
 
@@ -377,14 +417,16 @@ p {
   line-height: 1,19;
   /* or 119% */
   letter-spacing: 0.03em;
+
   color: var(--brand-color);
 }
 
 .footer {
-  background-color: var(--background-color);
-
   width: 1600px;
   height: 252px;
   left: 0px;
   top: 2097px;
+
+  background-color: var(--background-color);
+  
 }
