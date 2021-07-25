@@ -28,8 +28,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
-  outline: 1px solid tomato;
-  
+ /* outline: 1px solid tomato;*/
 }
 
 /*point*/
@@ -40,6 +39,7 @@ a {
   text-decoration: none;
 }
 
+/*Tegi
 h1,
 h2,
 h3,
@@ -49,15 +49,14 @@ h6,
 p {
   margin-top: 0;
   margin-bottom: 0;
-}
+}*/
 
-.section{
+/*.section{
   padding-top: 100px;
   padding-bottom: 120px;
-  
-}
+}*/
 
-/*probnik*/
+/*probnik
 .section-desc {
   padding: 0;
   margin: 0;
@@ -65,29 +64,23 @@ p {
 
   display: flex;
   flex-wrap: wrap;
-}
- 
-/*margin-left: -30px;
-  margin-top: -30px;*/
-
-
-/*.section-desc > .section-text {
- outline: 1px solid royalblue;
-
-  flex-basis: calc(100% / 4);
-
-  margin-left: 30px;
-  margin-top: 30px;
 }*/
+ 
+/*hover-kontaktam*/
+.information:hover,
+.telefone:hover {
+  color: var(--primary-text-color);
+}
 
 /*Шапка студия,портфолио,контакты ховер*/
 .nav_item:hover {
   color: var(--primary-text-color);
 }
 
-.information:hover,
-.telefone:hover {
-  color: var(--primary-text-color);
+/* Шапка Студия,Портфолио,Контакты*/
+.nav_list{
+  display: flex;
+  margin-left: 93px;
 }
 
 /*Все ховер фокус*/
@@ -97,7 +90,29 @@ p {
   color: var(--brand-color);
 }
 
-/*Логотип*/
+/*main-nav*/
+.main-nav{
+  display: flex;
+  align-items: center;
+}
+
+/*Студия,Портфолио,Контакты*/
+.nav_list .item {
+  /*outline: 1px solid tomato;*/
+  margin-right: 50px;
+}
+
+/*Auth-nav*/
+.auth-nav{
+  display: flex;
+  margin-left: auto;
+}
+
+.auth-nav .item{
+margin-left: 50px;
+}
+
+/*Логотип синий*/
 .nav_logo {
   font-family: "Raleway";
   font-weight: bold;
@@ -108,6 +123,7 @@ p {
   color: var(--primary-text-color);
 }
 
+/*Логотип*/
 .logo {
   font-family: "Raleway";
   font-weight: bold;
@@ -117,6 +133,7 @@ p {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
+
 
 /*Студия Портфолио*/
 .nav_item_list {
@@ -134,16 +151,6 @@ p {
   letter-spacing: 0.02em;
 }
 
-/* шапка Студия,Портфолио,Контакты*/
-.nav_list{
-  display: flex;
-
-}
-
-.nav_list .item {
-  /*outline: 1px solid tomato;*/
-  margin-right: 50px;
-}
 
 /*Портфолио*/ /*Котакты*/
 .nav_item {
@@ -159,15 +166,6 @@ p {
   line-height: 1,14;
   /* or 114% */
   letter-spacing: 0.02em;
-}
-
-/*Auth-nav*/
-.auth-nav{
-  display: flex;
-}
-
-.auth-nav .item{
-margin-left: 50px;
 }
 
 /*info@devstudio.com*/
@@ -219,7 +217,7 @@ margin-left: 50px;
   width: 200px;
   height: 50px;
   left: 700px;
-  top: 430px;
+  top: 490px;
 
   font-family: "Roboto";
   font-weight: 700;
@@ -239,7 +237,18 @@ margin-left: 50px;
   margin-top: 0;
   margin-bottom: 94px;
   height: 600px;
-  
+}
+
+/*feature-list*/
+.feature-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feature-list .item{
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*Tekst h2-h3*/
@@ -261,7 +270,7 @@ margin-left: 50px;
 
 /*Текст описания товаров, и т.д.*/
 .section-text {
- margin-top: 0;
+ margin-top: 0px;
  margin-bottom: 94px;
  
   font-family: "Roboto";
@@ -276,7 +285,7 @@ margin-left: 50px;
 
 /*Чем  занимаемся-Наша команда*/
 .section-title {
- margin-top: 0;
+ margin-top: 10px;
  margin-bottom: 50px;
  
   font-family: "Roboto";
@@ -289,11 +298,30 @@ margin-left: 50px;
 
   color: var(--accent-color);
 }
+/*Изображение pic*/
+.pic {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.pic {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pic {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+}
 
 /* наша Команда*/
 .section-subtitle {
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
  
   font-family: "Roboto";
   font-weight: 500;
@@ -308,7 +336,7 @@ margin-left: 50px;
 /*text*/
 .text {
  margin-top: 0;
- margin-bottom: 10px;
+ margin-bottom: 124px;
  
   font-family: "Roboto";
   font-weight: normal;
@@ -318,12 +346,6 @@ margin-left: 50px;
   letter-spacing: 0.03em;
 
   color: var(--back-color);
-}
-
-/*Изображение pic*/
-.pic {
-  margin-top: 0;
-  margin-bottom: 50px;
 }
 
 /*Нижняя область страницы*/
@@ -366,8 +388,24 @@ margin-left: 50px;
 
 /*портфолио-html*/
 
+/*pic-container*/
+.pic-container{
+  width: 1200px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pic-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+}
+
 /*Кнопки*/
 .button {
+
   font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
@@ -384,11 +422,33 @@ margin-left: 50px;
   padding: 6px 22px;
 }
 
+.button-container{
+  margin-left: 93px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.button:first-child{
+  border: none;
+  border-right: 30px solid #ffff;
+}
+
+.button-container{
+
+ margin-top: 136px;
+ margin-bottom: 56px;
+ }
+
 /*Тексты заголовков 2-й лист*/
 /*Технокряк*/ /*Постер*/ /*Ресторан*/
 /*Проект*/ /*Проект Бох*/ /*Инспиратион*/
 /*Лиметед*/ /*ЛАБ*/ /*Гровинг*/
 .subject {
+   margin-top: 0;
+   margin-bottom: 4px;
+
   font-family: "Roboto";
   font-weight: bold;
   font-size: 18px;
@@ -400,6 +460,9 @@ margin-left: 50px;
 }
 
 .subtitle-text {
+ margin-top: 0px;
+ margin-bottom: 50px;
+
   font-family: "Roboto";
   font-weight: normal;
   font-size: 16px;
@@ -411,6 +474,7 @@ margin-left: 50px;
 }
 
 .logo_nav {
+
   font-family: "Raleway";
   font-weight: bold;
   font-size: 26px;
@@ -428,5 +492,4 @@ margin-left: 50px;
   top: 2097px;
 
   background-color: var(--background-color);
-  
 }
