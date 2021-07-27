@@ -16,7 +16,7 @@
 <body>
     <header>
         <div class="container">
-        <nav class="container main-nav">
+        <nav class="main-nav">
             <a href="#" class="nav_logo">Web<span class="logo">Studio</span></a>
             <ul class="nav_list">
                 <li class="item"><a href="./index.html" class="nav_item_list">Студия</a></li>
@@ -32,8 +32,10 @@
     </header>
     <main>
         <section class="hero">
+            <div class="container hero-contaner">
             <h1 class="hero-big">Эффективные решения для вашего бизнеса</h1>
             <button type="button" class="hero_button_form">Заказ услугу</button>
+        </div>
         </section>
         <section class="section">
             <div class="container">
@@ -57,7 +59,7 @@
             </ul>
         </div>
         </section>
-        <section class="section">
+        <section class="section our-team">
             <div class="container">
             <h3 class="section-title">Чем мы занимаемся</h3>
             <ul class="pic">
@@ -67,29 +69,37 @@
             </ul>
         </div>
         </section>
-        <section class="section">
+        <section class="section team-our">
             <div class="container">
             <h2 class="section-title">Наша команда</h2>
             <ul class="pic">
-                <li>
+                <li class="pic-team">
                     <img src="./images/Igor.D.img.jpg" width="270" alt="Игорь Демьяченко" class="img">
+                    <div class="pic-wrapper">
                     <h3 class="section-subtitle">Игорь Демьяченко</h3>
                     <p class="text">Product Developer</p>
-                </li>
-                <li>
+               </div>
+               </li>
+                <li class="pic-team">
                     <img src="./images/Olga.img.jpg" width="270" alt="Ольга Репина" class="img">
+                    <div class="pic-wrapper">
                     <h3 class="section-subtitle">Ольга Репина</h3>
                     <p class="text">Frontend Developer</p>
+                </div>
                 </li>
-                <li>
+                <li class="pic-team">
                     <img src="./images/Nikola.T.img.jpg" width="270" alt="Николай Тарасов" class="img">
+                    <div class="pic-wrapper">
                     <h3 class="section-subtitle">Николай Тарасов</h3>
                     <p class="text">Marketing</p>
+                </div>
                 </li>
-                <li>
+                <li class="pic-team">
                     <img src="./images/Mixail.N.img.jpg" width="270" alt="Михаил Ермаков" class="img">
+                    <div class="pic-wrapper">
                     <h3 class="section-subtitle">Михаил Ермаков</h3>
                     <p class="text">UI Designer</p>
+                </div>
                 </li>
             </ul>
         </div>
@@ -99,7 +109,7 @@
         <div class="container">
         <a href="#" class="nav_logo">Web<span class="logo_nav">Studio</span></a>
         <address class="address">
-            <p>г.Киев, пр-т Леси Украинки, 26</p>
+            <p class="address-text">г.Киев, пр-т Леси Украинки, 26</p>
             <a href="mailto:info@example.com" class="inform">info@example.com</a>
             <a href="tel:+380991111111" class="inform">+38 099 111 11 11</a>
         </address>
