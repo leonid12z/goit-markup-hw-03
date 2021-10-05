@@ -96,14 +96,15 @@ p {
 /* Шапка Студия,Портфолио,Контакты */
 .nav-list {
   display: flex;
+  margin-left: 93px;
 }
 
-/*Студия,Портфолио,Контакты*/
+/* Студия,Портфолио,Контакты*/
 .nav-list .item {
-  margin-right: 50px;
-}
+  margin-left: 50px;
+} 
 
-.nav-list .item:last-child {
+.nav-list .item:not(:last-child) {
   margin-right: 0;
 }
 
@@ -111,6 +112,7 @@ p {
 .auth-nav {
   display: flex;
   align-items: center;
+  margin-left: auto;
 }
 
 .auth-nav .item {
